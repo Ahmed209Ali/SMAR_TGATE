@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- fonticon-->
+    <link rel="icon" href="#">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="./assets/vendor/font/all.min.css">
+    <!-- font css -->
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <!-- Aos Animation css -->
+
+
+    <!-- bootstrab css -->
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/bootstrap.min.css">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    
+  <header id="header" class=" d-flex align-items-center">
+    <div class="all container d-flex justify-content-between">
+        <div class="input">
+
+            <button type="button" id="btn1" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">عضو
+                جديد</button>
+            <button type="button" id="btn2" class="btn " data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">تسجل الدخول</button>
+        </div>
+        <nav id="navbar" class="navbar">
+            <ul>
+
+
+
+                <li><a class="nav-link scrollto" href="./index.html">اتصل بنا</a></li>
+                <li><a class="nav-link scrollto active" href="./task.html">من نحن </a></li>
+                <li><a class="nav-link scrollto" href="./index.html">الندوات</a></li>
+                <li> <a class="nav-link scrollto" href="./index.html">قطاعتنا </a></li>
+                <li> <a class="nav-link scrollto" href="./index.html">خدماتنا</a></li>
+                <li><a class="nav-link scrollto  " href="./app.html">الاخبار</a></li>
+                <li><a class="nav-link scrollto " href="./index.html">الرئيسية</a></li>
+
+
+
+            </ul>
+            <div class="logo">
+                <img src="./assets/img/WhatsApp Image 2022-01-19 at 8.38.43 PM.png" alt="">
+            </div>
+        </nav>
+
+
+    </div>
+</header>
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">تسجيل الدخول</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="img1"><img src="./assets/img/Group 11344.png" alt=""></div>
+            <div class="model1">
+                <p>من فضلك قم بإدخال البيانات المطلوبة منك لإستكمال تسجيل الدخول ومعرفة الدرجات والتقديرات
+                    الخاصة بك في الجامعة</p>
+                <div class="col-md-4 al00">
+
+                    <input type="text" placeholder="الرقم القومي" class="form-control"
+                        id="validationDefault01" value="" required>
+                </div>
+                <div class="col-md-4 al00">
+
+                    <input type="text" placeholder="الرقم الجامعي" class="form-control"
+                        id="validationDefault01" value="" required>
+                </div>
+
+            </div>
+        </div>
+        <div class="modal-footer">
+
+            <button type="button" id="btn2" class="btn d1" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop3">تسجل الان</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">التسجيل في الندوة</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="img1"><img src="./assets/img/Group 11344.png" alt=""></div>
+                        <div class="model1">
+                            <p>من فضلك قم بإدخال البيانات المطلوبة منك لإستكمال تسجيل الدخول ومعرفة الدرجات والتقديرات
+                                الخاصة بك في الجامعة</p>
+                            <div class="col-md-4 al00">
+
+                                <input type="text" placeholder="الاسم بالكامل" class="form-control"
+                                    id="validationDefault01" value="" required>
+                            </div>
+                            <div class="col-md-4 al00">
+
+                                <input type="text" placeholder="الهاتف" class="form-control" id="validationDefault01"
+                                    value="" required>
+                            </div>
+                            <div class="col-md-4 al00">
+
+                                <input type="email" placeholder="البريد الالكترونى" class="form-control"
+                                    id="validationDefault01" value="" required>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+
+                        <button type="button" id="btn2" class="btn d1" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop2"> المتابعه</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">  الكلية والتخصص</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="img1"><img src="./assets/img/Group 11344.png" alt=""></div>
+                    <div class="model1">
+                        <p>من فضلك قم بإدخال البيانات المطلوبة منك لإستكمال تسجيل الدخول ومعرفة الدرجات والتقديرات
+                            الخاصة بك في الجامعة</p>
+                        <div class="col-md-4 dsa">
+
+                            <select class="form-select" id="validationDefault04" required>
+                                <option selected disabled value="">اختر الكلية </option>
+                                <option>Ahmed </option>
+                                <option value="">Ahmed</option>
+                                <option value="">Ahmed</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 dsa">
+
+                            <select class="form-select" id="validationDefault04" required>
+                                <option selected disabled value=""> اختر القسم - التخصص </option>
+                                <option>Ahmed </option>
+                                <option value="">Ahmed</option>
+                                <option value="">Ahmed</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 al00">
+
+                            <input type="text" placeholder="رقم الجلوس " class="form-control"
+                                id="validationDefault01" value="" required>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" id="btn2" class="btn d1" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">تسجل الان</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              
+              <div class="modal-body">
+                  <div> <h4>تم التسجيل بنجاح</h4></div>
+                 <div>
+                  <h5>من فضلك قم بمراجعة البريد الوارد لديك علي بريدك الإلكتروني الخاص بك لمعرفة التفاصيل الخاصة
+                      بالندوة وتذكرة الحضور والميعاد</h5>
+                 </div>
+                  <div> <button type="button" id="f1" class="btn" data-bs-dismiss="modal"> حسنا,فهمت  </button>
+                  </div>
+              </div>
+
+             
+          </div>
+      </div>
+  </div>
+
+
+
+    <section class="task1">
+
+
+      
+        <div class="Home"></div>
+        <div id="div"></div>
+        <div class="soo"></div>
+       
+       
+        <div class="img3"></div>
+        
+        <div class="all">
+
+
+            <div id="text" class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
+                
+                    <h1>SMART <span>GATE</span> </h1>
+                    <p>تعد شركة سمارت جيت من الشركات الرائدة في صناعة الأفكار الإبداعية والمبتكرة لعملاها حيث تمنح فرصا فريدة للعملاء للحصول على حلول متكاملة من مصدر واحد وذلك بتطبيق حلول تقنية متكاملة وبطريقة تهدف لزيادة وسرعة الانتاجية والربحية وبالمشاركة مع شركتنا تصبح الفرصة مواتية للفوز بعمق التجربة والحلول التقنية الأبعد بكثير من الخبرة المحلية لخدماتنا التي تتضمن تصميم وتطبيق الشبكات السلكية واللاسلكية وتجهيز الاجهزة ومستلزماتها وملحقاتها لكل الاصناف المعروفة والمتناسقة اللازمة لتطوير البرامج والحلول المتكاملة والاستشارات التقنية والمعلوماتية وتصميم المواقع والبرمجيات والتدريب والصيانة وادارة النظم بشكل عام
+                    </p>
+                
+            </div>
+            <div id="img1"><img src="./assets/img/Group 11342.png" alt=""></div>
+        </div>
+    </section>
+    <section id="task2">
+        <div class="all">
+            <div class="img2"><img src="./assets/img/Group 9143.png" alt=""></div>
+            <div class="text">
+                <div id="cust">
+                    <img src="./assets/img/Group 9139.png" alt="">
+                    <h4>رؤية الشركة</h4>
+                    <h6>الأفكار المبدعه والمبتكرة هي طريقنا لبناء علاقتنا مع العميل كفريق عمل واحد بداية من العمل سوياً ثم التشغيل والإدارة نعمل معا ننجح معا - وذلك عن طريق تقديم المنتجات والخدمات ذات الجوده العالية في مجال تكنولوجيا المعلومات لتطوير البرامج والبنية التحتية اللازمة من أجهزة وشبكات وبرمجيات لتطوير الأداء لدي العملاء</h6>
+                </div>
+                <div id="cust">
+                    <img src="./assets/img/Group 9138.png" alt="">
+                    <h4>مهمة الشركة</h4>
+                    <h6>مهمتنا المشاركة مع عملائنا لنجعلهم أكثر تنافسية وكفاءه وأكثر فاعلية والمساهمه في استقرارهم بمواقعهم بالسوق والسعى للتقدم والنمو فى مجالات أعمالهم</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="task3">
+        <header id="ser">
+        <div id="ser_h1"></div>
+        <h1>فريقنا </h1>
+        <p>نحن نهتم بالشباب اكثر ما نهتم بالخبرة لذلك فان فريقنا هو مجموعة من الشباب المبدعين والطموحيين</p>
+    </header>
+    
+    <section id="services" class="services section-bg team">
+        <div class="container"> <section id="" class="">
+  
+
+      
+              <div class="row">
+      
+                <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up">
+                  <div class="member">
+                    <img src="assets/img/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.avif" class="img-fluid" alt="">
+                    <div class="member-info">
+                      <div class="member-info-content">
+                        <h4>رجب علي</h4>
+                        <span>المدير العام</span>
+                      </div>
+                      <div class="social">
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                  <div class="member">
+                    <img src="./assets/img/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.avif" class="img-fluid" alt="">
+                    <div class="member-info">
+                      <div class="member-info-content">
+                        <h4>أحمد مدحت</h4>
+                        <span>المدير التنفيذي</span>
+                      </div>
+                      <div class="social">
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="member">
+                    <img src="assets/img/young-bearded-man-with-striped-shirt_273609-5677.avif" class="img-fluid" alt="">
+                    <div class="member-info">
+                      <div class="member-info-content">
+                        <h4>خالد السعيد</h4>
+                        <span>المساعد التنفيذي</span>
+                      </div>
+                      <div class="social">
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                  <div class="member">
+                    <img src="assets/img/handsome-young-businessman-with-crossed-arms-smiling-confident_176420-21730.avif" class="img-fluid" alt="">
+                    <div class="member-info">
+                      <div class="member-info-content">
+                        <h4>سالم أحمد</h4>
+                        <span>مسؤول التسويق</span>
+                      </div>
+                      </div>
+                      <div class="social">
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+      
+            </div>
+          
+      </section>
+    </section>
+    <section class="foter">
+      <div class="s1">
+          <img src="./assets/img/WhatsApp Image 2022-01-19 at 8.38.43 PM.png" alt="">
+          <div class="i"><i class="fa-solid fa-location-dot"></i>
+              <h4>عقار رقم 9 شارع حسن افلاطون ارض الجولف – مدينة نصر</h4>
+          </div>
+      </div>
+      <div class="s2">
+          <a href="#">الرئيسية</a>
+          <a href="#">خدماتنا</a>
+          <a href="#">قطاعتنا</a>
+          <a href="#">الندوات</a>
+          <a href="#">من نحن</a>
+      </div>
+      <div class="s3">
+          <h5>تواصل معنا عبر</h5>
+
+          <div class="s31">
+              <i class="fa-solid fa-mobile"></i>
+
+              0224199056
+          </div>
+          <div class="s31">
+              <i class="fa-solid fa-phone"></i>
+              01069673344
+          </div>
+          <div class="s31">
+              <i class="fa-solid fa-envelope"></i>
+              info@smart-gate.net
+          </div>
+      </div>
+      <div class="s4">
+          <div class="s41">
+              <h5>تابعنا عبر</h5>
+          </div>
+          <div class="s42">
+              <a href="">
+                  <i class="fa-brands fa-facebook"></i>
+              </a><a href="">
+                  <i class="fa-brands fa-instagram"></i>
+              </a><a href="">
+                  <i class="fa-brands fa-youtube"></i>
+              </a>
+          </div>
+          <div class="s43">
+
+              <div id="h5">
+                  <h5>اشترك الان</h5>
+              </div>
+              <div><input type="text" class="form-control" id="validationDefaultUsername"
+                      placeholder=" البريد الإلكتروني" aria-describedby="inputGroupPrepend2" required>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="desion">
+
+      </div>
+
+
+  </section>
+  <a href="#" class="top"><i class="fa-solid fa-up-long"></i></a>
+  
+  
+
+  <script src="./assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <!-- font js -->
+  <script src="./assets/js/app.js"></script>
+  <!-- Aos Animation js -->
+  <script src="assets/vendor/aos/aos.js"></script>
+</body>
+</html>

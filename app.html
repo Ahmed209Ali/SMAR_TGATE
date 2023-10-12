@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- fonticon-->
+    <link rel="icon" href="#">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="./assets/vendor/font/all.min.css">
+    <!-- font css -->
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <!-- Aos Animation css -->
+
+
+    <!-- bootstrab css -->
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/bootstrap.min.css">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="header" class=" d-flex align-items-center">
+        <div class="all container d-flex justify-content-between">
+            <div class="input">
+
+                <button type="button" id="btn1" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">عضو
+                    جديد</button>
+                <button type="button" id="btn2" class="btn " data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">تسجل الدخول</button>
+            </div>
+            <nav id="navbar" class="navbar">
+                <ul>
+
+
+
+                    <li><a class="nav-link scrollto" href="./index.html">اتصل بنا</a></li>
+                    <li><a class="nav-link scrollto " href="./task.html">من نحن </a></li>
+                    <li><a class="nav-link scrollto" href="./index.html">الندوات</a></li>
+                    <li> <a class="nav-link scrollto" href="./index.html">قطاعتنا </a></li>
+                    <li> <a class="nav-link scrollto" href="./index.html">خدماتنا</a></li>
+                    <li><a class="nav-link scrollto active " href="./app.html">الاخبار</a></li>
+                    <li><a class="nav-link scrollto " href="./index.html">الرئيسية</a></li>
+
+
+
+                </ul>
+                <div class="logo">
+                    <img src="./assets/img/WhatsApp Image 2022-01-19 at 8.38.43 PM.png" alt="">
+                </div>
+            </nav>
+
+
+        </div>
+    </header>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">تسجيل الدخول</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="img1"><img src="./assets/img/Group 11344.png" alt=""></div>
+                        <div class="model1">
+                            <p>من فضلك قم بإدخال البيانات المطلوبة منك لإستكمال تسجيل الدخول ومعرفة الدرجات والتقديرات
+                                الخاصة بك في الجامعة</p>
+                            <div class="col-md-4 al00">
+
+                                <input type="text" placeholder="الرقم القومي" class="form-control"
+                                    id="validationDefault01" value="" required>
+                            </div>
+                            <div class="col-md-4 al00">
+
+                                <input type="text" placeholder="الرقم الجامعي" class="form-control"
+                                    id="validationDefault01" value="" required>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+
+                        <button type="button" id="btn2" class="btn d1"  data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop3">تسجل الان</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">التسجيل في الندوة</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="img1"><img src="./assets/img/Group 11344.png" alt=""></div>
+                    <div class="model1">
+                        <p>من فضلك قم بإدخال البيانات المطلوبة منك لإستكمال تسجيل الدخول ومعرفة الدرجات والتقديرات
+                            الخاصة بك في الجامعة</p>
+                        <div class="col-md-4 al00">
+
+                            <input type="text" placeholder="الاسم بالكامل" class="form-control"
+                                id="validationDefault01" value="" required>
+                        </div>
+                        <div class="col-md-4 al00">
+
+                            <input type="text" placeholder="الهاتف" class="form-control" id="validationDefault01"
+                                value="" required>
+                        </div>
+                        <div class="col-md-4 al00">
+
+                            <input type="email" placeholder="البريد الالكترونى" class="form-control"
+                                id="validationDefault01" value="" required>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" id="btn2" class="btn d1" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop2"> المتابعه</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">  الكلية والتخصص</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="img1"><img src="./assets/img/Group 11344.png" alt=""></div>
+                <div class="model1">
+                    <p>من فضلك قم بإدخال البيانات المطلوبة منك لإستكمال تسجيل الدخول ومعرفة الدرجات والتقديرات
+                        الخاصة بك في الجامعة</p>
+                    <div class="col-md-4 dsa">
+
+                        <select class="form-select" id="validationDefault04" required>
+                            <option selected disabled value="">اختر الكلية </option>
+                            <option>Ahmed </option>
+                            <option value="">Ahmed</option>
+                            <option value="">Ahmed</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 dsa">
+
+                        <select class="form-select" id="validationDefault04" required>
+                            <option selected disabled value=""> اختر القسم - التخصص </option>
+                            <option>Ahmed </option>
+                            <option value="">Ahmed</option>
+                            <option value="">Ahmed</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 al00">
+
+                        <input type="text" placeholder="رقم الجلوس " class="form-control"
+                            id="validationDefault01" value="" required>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" id="btn2" class="btn d1" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">تسجل الان</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            
+            <div class="modal-body">
+                <div> <h4>تم التسجيل بنجاح</h4></div>
+               <div>
+                <h5>من فضلك قم بمراجعة البريد الوارد لديك علي بريدك الإلكتروني الخاص بك لمعرفة التفاصيل الخاصة
+                    بالندوة وتذكرة الحضور والميعاد</h5>
+               </div>
+                <div> <button type="button" id="f1" class="btn" data-bs-dismiss="modal"> حسنا,فهمت  </button>
+                </div>
+            </div>
+
+           
+        </div>
+    </div>
+</div>
+    <section id="app">
+        <div class="app1">
+            <div>
+                <h4>اخبار اخري</h4>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/img.jpg" class="card-img-top" alt="...">
+                <div class="al11">
+
+                    <p class="card-text">يوم الأحد ، الموافق 29 / 01 / 2022</p>
+                    <h3>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل
+                        الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</h3>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/img2.jpg" class="card-img-top" alt="...">
+                <div class="al11">
+
+                    <p class="card-text">يوم الأحد ، الموافق 29 / 01 / 2022</p>
+                    <h3>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها </h3>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/NoPath - Copy (57).png" class="card-img-top" alt="...">
+                <div class="al11">
+
+                    <p class="card-text">يوم الأحد ، الموافق 29 / 01 / 2022</p>
+                    <h3>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</h3>
+                </div>
+            </div>
+
+        </div>
+        <div class="app2">
+            
+            <img src="./assets/img/NoPath - Copy (57).png" alt="">
+            <h6>الأحد ، الموافق 29 / 01 / 2022</h6>
+            <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي
+                للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ
+                طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي
+                الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل
+                إفتراضي كنموذج عن النص، وإذا قمت بإدخال "Lorem Ipsum" في أي محرك بحث ستظهر العديد من المواقع الحديثة
+                العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة،
+                وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها. هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم،
+                ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص. إن كنت تريد أن
+                تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة
+                في هذا النص. بينما تعمل جميع مولّدات نصوص لوريم إيبسوم على الإنترنت على إعادة تكرار مقاطع من نص لوريم
+                إيبسوم نفسه عدة مرات بما تتطلبه الحاجة</p>
+        </div>
+    </section>
+    <section class="foter">
+        <div class="s1">
+            <img src="./assets/img/WhatsApp Image 2022-01-19 at 8.38.43 PM.png" alt="">
+            <div class="i"><i class="fa-solid fa-location-dot"></i>
+                <h4>عقار رقم 9 شارع حسن افلاطون ارض الجولف – مدينة نصر</h4>
+            </div>
+        </div>
+        <div class="s2">
+            <a href="#">الرئيسية</a>
+            <a href="#">خدماتنا</a>
+            <a href="#">قطاعتنا</a>
+            <a href="#">الندوات</a>
+            <a href="#">من نحن</a>
+        </div>
+        <div class="s3">
+            <h5>تواصل معنا عبر</h5>
+
+            <div class="s31">
+                <i class="fa-solid fa-mobile"></i>
+
+                0224199056
+            </div>
+            <div class="s31">
+                <i class="fa-solid fa-phone"></i>
+                01069673344
+            </div>
+            <div class="s31">
+                <i class="fa-solid fa-envelope"></i>
+                info@smart-gate.net
+            </div>
+        </div>
+        <div class="s4">
+            <div class="s41">
+                <h5>تابعنا عبر</h5>
+            </div>
+            <div class="s42">
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a><a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a><a href="">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+            <div class="s43">
+
+                <div id="h5">
+                    <h5>اشترك الان</h5>
+                </div>
+                <div><input type="text" class="form-control" id="validationDefaultUsername"
+                        placeholder=" البريد الإلكتروني" aria-describedby="inputGroupPrepend2" required>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="desion">
+
+        </div>
+
+
+    </section>
+    <a href="#" class="top"><i class="fa-solid fa-up-long"></i></a>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrab js -->
+    <script src="./assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- font js -->
+    <script src="./assets/js/app.js"></script>
+    <!-- Aos Animation js -->
+    <script src="assets/vendor/aos/aos.js"></script>
+
+</body>
+
+</html>
